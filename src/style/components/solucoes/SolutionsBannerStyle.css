@@ -1,0 +1,164 @@
+.main-banner-solution{
+    width: 100%;
+    height: 90vh;
+    background-image: url("../../../assets/solutions/bannerSolucoes.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-banner-solutions{
+    height: 15%;
+    width: 100%;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-banner-solutions img{
+    height: 60px;
+}
+
+.header-banner-solutions h6{
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container-solutions{
+    width: 100%;
+    height:70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title-banner-solutions{
+    width: 50%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title-banner-solutions h1{
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title-banner-solutions h4{
+    font-size: 30px;
+    font-family: modernSans;
+}
+
+.image-banner-solutions{
+    width: 40%;
+}
+
+.image-banner-solutions img{
+    width: 100%;
+}
+
+.button-to-services{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-to-services a{
+    text-decoration: none;
+    color: #000;
+}
+
+.button-to-services a:hover{
+    color: #fff;
+}
+
+@media (max-width: 450px) {
+    .main-banner-solution{
+        height: 100vh;
+    }
+
+    .header-banner-solutions{
+        height: 10%;
+        padding: 0 10px;
+        gap: 10px;
+    }
+
+    .header-banner-solutions img{
+        height: 30px;
+    }
+
+    .header-banner-solutions h6{
+        font-size: 15px;
+    }
+
+    .container-solutions{
+        height:70%;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+
+    .title-banner-solutions{
+        width: 100%;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .title-banner-solutions h1{
+        font-size: 40px;
+    }
+    
+    .title-banner-solutions h4{
+        font-size: 20px;
+    }
+
+    .image-banner-solutions{
+        width: 100%;
+    }
+    
+    .image-banner-solutions img{
+        width: 100%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1100px) {
+    .main-banner-solution{
+        height: 70vh;
+    }
+
+    .header-banner-solutions{
+        height: 10%;
+        padding: 0 20px;
+        gap: 10px;
+    }
+
+    .header-banner-solutions img{
+        height: 30px;
+    }
+
+    .header-banner-solutions h6{
+        font-size: 14px;
+    }
+
+    .container-solutions{
+        height:70%;
+    }
+
+    .title-banner-solutions{
+        width: 60%;
+        padding: 20px;
+        gap: 5px;
+    }
+
+    .title-banner-solutions h1{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    
+    .title-banner-solutions h4{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,139 @@
+.header-home{
+    background-color: #403289;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100px;
+    padding: 10px 0;
+    z-index: 999;
+}
+
+.left-header{
+    width: 40%;
+}
+
+.logo-img{
+    width: 80px;
+    margin: 0 auto;
+}
+
+.right-header{
+    width: 30%;
+}
+
+.ul-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.li-menu{
+    font-size: 26px;
+    list-style-type: none;
+    color: #FFFF;
+    font-family: modernSans;
+}
+
+.linked-header{
+    text-decoration: none;
+}
+
+/* ... (outros estilos) */
+
+/* Estilos para o menu hamburguer */
+.mobile-menu-icon {
+  display: none; /* Inicialmente oculto em telas maiores */
+}
+  
+  @media (max-width: 450px) {
+
+    .header-home.active{
+      width: 100%;
+      position: fixed;
+    }
+
+    .right-header {
+      display: none; /* Oculta o menu de navegação em dispositivos móveis */
+    }
+  
+    .mobile-menu-icon {
+      display: block; /* Exibe o ícone do menu hamburguer em dispositivos móveis */
+    }
+  
+    /* Estilos para o ícone do menu hamburguer */
+    .mobile-menu-icon button {
+      background: none;
+      border: none;
+      font-size: 24px;
+      color: #FFF;
+      cursor: pointer;
+    }
+  
+    /* Estilos para o menu hamburguer */
+    .mobile-menu-icon button:hover {
+      color: #FFA500; /* Cor de destaque ao passar o mouse */
+    }
+  
+    /* Estilos para o menu deslizante */
+    .MuiDrawer-paper {
+      width: 70%; /* Largura do menu deslizante */
+      background-color: #403289;
+    }
+  
+    .MuiList-root {
+      padding: 0;
+    }
+  
+    .MuiListItem-root {
+      padding: 10px 20px;
+    }
+  
+    .MuiListItemText-primary {
+      font-size: 20px;
+      color: #fff;
+      font-family: modernSans;
+    }
+  }
+  
+@media (min-width: 500px) and (max-width: 1100px) {
+  .header-home.active{
+    width: 100%;
+    position: fixed;
+  }
+
+  .right-header {
+    display: none; 
+  }
+
+  .mobile-menu-icon {
+    display: block; 
+  }
+
+  .mobile-menu-icon button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #FFF;
+    cursor: pointer;
+  }
+
+  /* Estilos para o menu deslizante */
+  .MuiDrawer-paper {
+    width: 70%; /* Largura do menu deslizante */
+    background-color: #403289;
+  }
+
+  .MuiList-root {
+    padding: 0;
+  }
+
+  .MuiListItem-root {
+    padding: 10px 20px;
+  }
+
+  .MuiListItemText-primary {
+    font-size: 20px;
+    color: #fff;
+    font-family: modernSans;
+  }
+}

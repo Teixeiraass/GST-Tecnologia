@@ -1,0 +1,16 @@
+.solucao-main{
+    height: 80vh;
+    background-color: #403289;
+}
+
+@media (max-width: 450px){
+    .solucao-main{
+        height: 100%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1100px) {
+    .solucao-main{
+        height: 100%;
+    }
+}

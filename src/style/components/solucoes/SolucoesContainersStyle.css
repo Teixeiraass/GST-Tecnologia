@@ -1,0 +1,154 @@
+.solucoes-container{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.solucao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 60px;
+}
+
+.modal-solucao{
+    width: 25%;
+    border-radius: 10px;
+}
+
+.bloco-solucoes{
+    border-radius: 10px;
+    background-color: #1F2349;
+    width: 100%;
+    padding: 30px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.bloco-solucoes:hover{
+    transform: scale(1.1);
+}
+
+.imagens-solucoes{
+    width: 100%;
+    height: 50%;
+}
+
+.informacoes-bloco{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.informacoes-bloco h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: #fff;
+}
+
+.informacoes-bloco p{
+    font-family: modernSans;
+    font-size: 18px;
+    color: #fff;
+}
+
+@media (max-width: 450px) {
+    .solucoes-container{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .solucao{
+        padding: 10px;
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .modal-solucao{
+        width: 100%;
+    }
+
+    .bloco-solucoes{
+        width: 100%;
+        padding: 20px;
+        height: 100%;
+    }
+
+    .bloco-solucoes:hover{
+        transform: scale(1);
+    }
+    
+    .imagens-solucoes{
+        width: 100%;
+        height: 60%;
+    }
+
+    .informacoes-bloco{
+        height: 30%;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .informacoes-bloco h1{
+        font-size: 18px;
+    }
+    
+    .informacoes-bloco p{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1100px) {
+    .solucoes-container{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .solucao{
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .modal-solucao{
+        width: 100%;
+    }
+
+    .bloco-solucoes{
+        width: 100%;
+        padding: 20px;
+        height: 500px;
+    }
+
+    .bloco-solucoes:hover{
+        transform: scale(1);
+    }
+    
+    .imagens-solucoes{
+        width: 100%;
+        height: 40%;
+    }
+
+    .informacoes-bloco{
+        height: 60%;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .informacoes-bloco h1{
+        font-size: 18px;
+    }
+    
+    .informacoes-bloco p{
+        font-size: 14px;
+    }
+}
